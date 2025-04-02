@@ -1,0 +1,13 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/RootStyle.uss?fileID=7433441132597879392&amp;guid=9b212e1f0e0102543aea5b587d41a921&amp;type=3#RootStyle" />
+    <Style src="project://database/Assets/UI/Menus/GameOverMenuStyle.uss?fileID=7433441132597879392&amp;guid=c7e2b1c2f708b00439f1e95025a068dd&amp;type=3#GameOverMenuStyle" />
+    <engine:VisualElement name="Container" style="flex-grow: 1; align-items: center; justify-content: center; background-color: rgba(0, 0, 0, 0.4);">
+        <engine:Label text="GAME OVER" name="TitleLabel" class="text-content" style="font-size: 56px;" />
+        <engine:Label text="The bomb exploded!" name="SubtitleLabel" class="text-content" style="font-size: 20px; color: rgb(224, 200, 114);" />
+        <engine:Label text="Bomb moved way too far." name="DetailsLabel" class="text-content" style="opacity: 0.59; margin-top: 84px; margin-bottom: 40px;" />
+        <engine:VisualElement>
+            <engine:Button text="Restart" name="RestartButton" class="btn" style="background-color: rgb(62, 105, 88); color: rgb(255, 255, 255); margin-bottom: 6px;" />
+            <engine:Button text="Main Menu" name="MainMenuButton" class="btn" />
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>

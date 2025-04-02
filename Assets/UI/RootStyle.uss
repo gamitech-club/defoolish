@@ -1,0 +1,95 @@
+:root {
+    color: #2b2821;
+    text-shadow: 4px 4px 0 rgba(0, 0, 0, 0.25);
+    -unity-font-definition: url("project://database/Assets/Fonts/PressStart2P-Regular%20SDF.asset?fileID=11400000&guid=cce475e32d84307468b3e0f7b86aae91&type=2#PressStart2P-Regular SDF");
+}
+
+.btn {
+    font-size: 20px;
+    -unity-text-align: upper-center;
+    background-color: #e3cfb4;
+    border-color: black;
+    border-width: 4px;
+}
+
+.btn:focus {
+    border-color: white;
+}
+
+.btn:hover {
+    border-color: white;
+}
+
+.btn-ghost {
+    color: #e3cfb4;
+    text-shadow: 4px 4px 0 rgba(0, 0, 0, 0.6);
+    background-color: transparent;
+    border-color: transparent;
+    border-width: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.btn-ghost:hover,
+.btn-ghost:focus {
+    text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    background-color: rgba(255, 255, 255, .05);
+}
+
+.btn-ghost:active {
+    background-color: rgba(255, 255, 255, .1);
+}
+
+.mr-12 {
+    margin-right: 12px;
+}
+
+.btn-back {
+    position: absolute;
+    top: 32px;
+    left: 42px;
+    font-size: 26px;
+}
+
+.panel-container {
+    width: 660px;
+    max-width: 90%;
+}
+
+.panel-title {
+    font-size: 36px;
+    background-color: #e3cfb4;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    border-top-width: 4px;
+    border-right-width: 4px;
+    border-bottom-width: 4px;
+    border-left-width: 4px;
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 8px;
+    margin-left: 0;
+    -unity-text-align: upper-center;
+}
+
+.panel {
+    background-color: #e3cfb4;
+    padding-top: 16px;
+    padding-right: 16px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    border-top-width: 4px;
+    border-right-width: 4px;
+    border-bottom-width: 4px;
+    border-left-width: 4px;
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+}

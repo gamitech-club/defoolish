@@ -1,0 +1,24 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/RootStyle.uss?fileID=7433441132597879392&amp;guid=9b212e1f0e0102543aea5b587d41a921&amp;type=3#RootStyle" />
+    <Style src="project://database/Assets/UI/Menus/NumpadMenuStyle.uss?fileID=7433441132597879392&amp;guid=29321cf858f5a9344a36b7d108397397&amp;type=3#NumpadMenuStyle" />
+    <engine:VisualElement name="Container" style="flex-grow: 1; align-items: center;">
+        <engine:Button text="Button" name="OverlayButton" focusable="false" style="position: absolute; width: 100%; height: 100%; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; opacity: 0;" />
+        <engine:VisualElement style="width: 387px; background-color: rgb(93, 114, 117); border-top-width: 4px; border-right-width: 4px; border-bottom-width: 4px; border-left-width: 4px; border-left-color: rgb(43, 40, 33); border-right-color: rgb(43, 40, 33); border-top-color: rgb(43, 40, 33); border-bottom-color: rgb(43, 40, 33); padding-top: 24px; padding-right: 24px; padding-bottom: 24px; padding-left: 24px; height: 582px; max-width: 80%; max-height: 95%; margin-top: 28px; border-top-left-radius: 8px; border-top-right-radius: 8px; border-bottom-right-radius: 8px; border-bottom-left-radius: 8px;">
+            <engine:TextField enabled="true" readonly="true" max-length="6" hide-mobile-input="true" select-all-on-mouse-up="false" select-all-on-focus="false" class="numpad-input" />
+            <engine:VisualElement style="flex-grow: 1; flex-direction: row; flex-wrap: wrap; justify-content: space-between;">
+                <engine:Button text="1" name="Numpad1" class="numpad-button" />
+                <engine:Button text="2" name="Numpad2" class="numpad-button" />
+                <engine:Button text="3" name="Numpad3" class="numpad-button" />
+                <engine:Button text="4" name="Numpad4" class="numpad-button" />
+                <engine:Button text="5" name="Numpad5" class="numpad-button" />
+                <engine:Button text="6" name="Numpad6" class="numpad-button" />
+                <engine:Button text="7" name="Numpad7" class="numpad-button" />
+                <engine:Button text="8" name="Numpad8" class="numpad-button" />
+                <engine:Button text="9" name="Numpad9" class="numpad-button" />
+                <engine:Button text="0" name="Numpad0" class="numpad-button" />
+                <engine:Button text="X" name="DeleteButton" class="numpad-button" style="background-color: rgb(212, 128, 77);" />
+                <engine:Button text="-&gt;" name="SubmitButton" class="numpad-button" style="background-color: rgb(62, 105, 88);" />
+            </engine:VisualElement>
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>

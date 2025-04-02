@@ -1,0 +1,30 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/RootStyle.uss?fileID=7433441132597879392&amp;guid=9b212e1f0e0102543aea5b587d41a921&amp;type=3#RootStyle" />
+    <Style src="project://database/Assets/UI/Menus/EndingsMenuStyle.uss?fileID=7433441132597879392&amp;guid=f95dc095c073d7740919a1f490cf9f98&amp;type=3#EndingsMenuStyle" />
+    <engine:VisualElement name="Container" style="flex-grow: 1; color: rgb(227, 207, 180); align-items: center; justify-content: center;">
+        <engine:Button text="&lt; Back" name="BackButton" class="btn btn-ghost btn-back" />
+        <engine:Label text="ENDINGS" style="font-size: 34px; margin-top: 0; margin-right: 0; margin-bottom: 18px; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0;" />
+        <engine:ScrollView style="width: 534px; height: 442px; max-height: 90%;">
+            <engine:VisualElement class="ending">
+                <engine:Label text="Bomb Exploded" class="ending-title" />
+                <engine:Label text="Ending description here" class="ending-desc" />
+            </engine:VisualElement>
+            <engine:VisualElement class="ending">
+                <engine:Label text="Bomb Exploded" class="ending-title" />
+                <engine:Label text="Very long ending description goes into here" class="ending-desc" />
+            </engine:VisualElement>
+            <engine:VisualElement class="ending">
+                <engine:Label text="Bomb Exploded" class="ending-title" />
+                <engine:Label text="Ending description here" class="ending-desc" />
+            </engine:VisualElement>
+            <engine:VisualElement class="ending locked">
+                <engine:Label text="???" class="ending-title" />
+                <engine:Label text="??????????" class="ending-desc" />
+            </engine:VisualElement>
+            <engine:VisualElement class="ending locked">
+                <engine:Label text="???" class="ending-title" />
+                <engine:Label text="??????????" class="ending-desc" />
+            </engine:VisualElement>
+        </engine:ScrollView>
+    </engine:VisualElement>
+</engine:UXML>

@@ -1,0 +1,41 @@
+.numpad-input {
+    margin: 0;
+    margin-bottom: 20px;
+    height: 70px;
+    border-width: 4px;
+    border-color: rgb(43, 40, 33);
+    border-radius: 4px;
+    font-size: 30px;
+    letter-spacing: 70px;
+}
+
+.numpad-input #unity-text-input {
+    color: rgb(36, 61, 92);
+    background-color: rgb(92, 139, 147);
+    -unity-text-align: middle-center;
+}
+
+.numpad-button {
+    width: 98px;
+    height: 98px;
+    margin: 0;
+    margin-bottom: 16px;
+    font-size: 34px;
+    color: white;
+    background-color: rgb(176, 58, 72);
+    border-width: 4px;
+    border-color: rgb(43, 40, 33);
+    border-radius: 4px;
+}
+
+.numpad-button:hover {
+    border-color: white;
+}
+
+.numpad-button:focus {
+    border-color: #cccccc;
+}
+
+.numpad-button:active {
+    scale: .95 .95;
+}

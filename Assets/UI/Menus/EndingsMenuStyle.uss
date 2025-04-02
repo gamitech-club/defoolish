@@ -1,0 +1,26 @@
+.ending {
+    padding: 4px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.ending:hover {
+    background-color: rgba(255, 255, 255, 0.03);
+}
+
+.ending-title {
+    color: rgb(224, 200, 114);
+}
+
+.ending-desc {
+    padding-left: 20px;
+    white-space: normal;
+}
+
+.locked .ending-title {
+    color: rgb(166, 150, 129);
+}
+
+.locked .ending-desc {
+    color: rgb(166, 150, 129);
+}

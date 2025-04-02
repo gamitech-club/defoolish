@@ -1,0 +1,7 @@
+.text-content {
+    margin: 0;
+    margin-bottom: 4px;
+    padding-left: 0;
+    padding-right: 0;
+    color: white;
+}

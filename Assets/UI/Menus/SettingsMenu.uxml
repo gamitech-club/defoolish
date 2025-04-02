@@ -1,0 +1,17 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/RootStyle.uss?fileID=7433441132597879392&amp;guid=9b212e1f0e0102543aea5b587d41a921&amp;type=3#RootStyle" />
+    <Style src="project://database/Assets/UI/Menus/SettingsMenuStyle.uss?fileID=7433441132597879392&amp;guid=8fe5996dd0b67af44b32bc031e10f5dc&amp;type=3#SettingsMenuStyle" />
+    <engine:VisualElement name="Container" style="flex-grow: 1; transition-property: translate, opacity; transition-duration: 0.3s, 0.3s; align-items: center; justify-content: center; flex-direction: column; padding-top: 100px; padding-bottom: 100px;">
+        <engine:Button text="&lt; Back" name="BackButton" class="btn btn-ghost btn-back" />
+        <engine:VisualElement class="panel-container">
+            <engine:Label text="SETTINGS" class="panel-title" />
+            <engine:ScrollView class="panel">
+                <engine:Slider label="Master Volume" value="0.7" high-value="1" name="MasterVolumeSlider" show-input-field="true" class="slider slider-ghost" />
+                <engine:Slider label="Music Volume" value="0.7" high-value="1" name="MusicVolumeSlider" show-input-field="true" class="slider slider-ghost" />
+                <engine:Slider label="SFX Volume" value="0.7" high-value="1" name="SFXVolumeSlider" show-input-field="true" class="slider slider-ghost" />
+                <engine:Slider label="Voice Volume" value="0.7" high-value="1" name="VoiceVolumeSlider" show-input-field="true" class="slider slider-ghost" />
+                <engine:Button text="Reset Settings" name="ResetButton" class="btn" style="background-color: rgb(180, 82, 82); -unity-text-align: upper-center; margin-top: 6px; color: rgb(255, 255, 255);" />
+            </engine:ScrollView>
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>
